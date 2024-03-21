@@ -41,13 +41,11 @@
   }
   
   .footer-about,
-  .footer-contact {
-    flex-basis: 50%;
-  }
+ 
   
   .footer-map,
   .footer-contact-info {
-    flex-basis: 50%;
+    flex-basis: 30%;
     margin-top: 20px;
   }
   
