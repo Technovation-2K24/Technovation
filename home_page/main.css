@@ -272,7 +272,7 @@ canvas.webgl {
 }
 
 .section__title-number {
-  font-size: min(11vw, 5rem);
+  font-size: min(13vw, 11rem);
   padding-left: .1ch;
   text-align: center;
   margin: 0 auto;
@@ -285,6 +285,7 @@ canvas.webgl {
     padding-left: .1ch;
     text-align: center;
     margin: 0 auto;
+    font-family: "Audiowide", sans-serif;
 }
 
 .section__title-arrow {
