@@ -28,7 +28,7 @@
             var enterButton = document.querySelector('.enter');
             enterButton.addEventListener('click', function() {
                 // Redirect to the desired HTML file
-                window.location.href = 'file:///C:/Users/Lenovo/Downloads/Apple%20(2)/Apple/Technovation/Homepage/index.html';
+                href="home_page/index.html";
             });
         });
     </script>
@@ -74,7 +74,7 @@
         </div>
         <button class="enter">
             <div class="enter__bg"></div>
-            <span class="enter__text">Enter</span>
+            <a href="home_page/index.html" class="enter__text">Enter</span>
         </button>
     </main>
     <script src="demo3.b516845c.js"></script>
