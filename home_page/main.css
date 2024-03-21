@@ -123,6 +123,7 @@
 }
 
 .event-card {
+    background-color: #0101ec;
     border: 1px solid #ccc;
     padding: 20px;
     text-align: center;
