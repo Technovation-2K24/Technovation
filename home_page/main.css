@@ -6,7 +6,11 @@
   html {
     font-size: 100%;
   }
-  
+  .section__tile {
+  text-align: center; /* Center align the section title */
+  margin-bottom: 20px; /* Add some space below the title */
+}
+
   body {
     font-family: acumin-pro, system-ui, sans-serif;
     margin: 0;
