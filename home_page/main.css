@@ -35,21 +35,19 @@
   }
   
   .footer-title {
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  .footer-para {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 10px;
   }
+  
   .footer-about,
- 
+  .footer-contact {
+    flex-basis: 50%;
+  }
   
   .footer-map,
   .footer-contact-info {
-    flex-basis: 30%;
+    flex-basis: 50%;
     margin-top: 20px;
   }
   
@@ -116,55 +114,16 @@
     font-style: normal;
     letter-spacing: .1ch;
 }
-.section__tile {
-  text-align: center; /* Center align the section title */
-  margin-bottom: 20px; /* Add some space below the title */
-}
-
-.event-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; /* Center align event cards */
-}
-
-.event-card {
-  border: 1px solid #7f7cfd;
-  padding: 20px;
-  text-align: center;
-  width: calc(33.33% - 20px); /* Adjust width of event cards */
-  margin: 10px; /* Add margin between event cards */
-}
-
-.event-card img {
-  width: 100%;
-  max-width: 100px; /* Adjust size as needed */
-  height: auto;
-  margin-bottom: 10px;
-}
-
-/* CSS for phone view */
-@media screen and (max-width: 768px) {
-  .event-list {
-      flex-direction: row; /* Display event cards in a row */
-  }
-
-  .event-card {
-      width: calc(40% - 20px); /* Adjust width of event cards for phone view */
-  }
-}
 
 .event-grid {
-  
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     gap: 20px;
     width: 100%; /* Make the grid container fill the entire width of the section */
 }
 
 .event-card {
- 
-  background-color: #e05151;
-    border: 1px solid #5796e9;
+    border: 1px solid #ccc;
     padding: 20px;
     text-align: center;
 }
@@ -175,7 +134,15 @@
     height: auto;
     margin-bottom: 10px;
 }
+@media screen and (max-width: 768px) {
+  .event-list {
+      flex-direction: row; /* Display event cards in a row */
+  }
 
+  .event-card {
+      width: calc(50% - 20px); /* Adjust width of event cards for phone view */
+  }
+}
 .section__button,
 body {
     font-family: degular-display, sans-serif;
