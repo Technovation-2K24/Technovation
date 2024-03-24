@@ -134,7 +134,15 @@
     height: auto;
     margin-bottom: 10px;
 }
+@media screen and (max-width: 768px) {
+  .event-list {
+      flex-direction: row; /* Display event cards in a row */
+  }
 
+  .event-card {
+      width: calc(40% - 20px); /* Adjust width of event cards for phone view */
+  }
+}
 .section__button,
 body {
     font-family: degular-display, sans-serif;
