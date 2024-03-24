@@ -117,7 +117,7 @@
 
 .event-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 20px;
     width: 100%; /* Make the grid container fill the entire width of the section */
 }
@@ -134,15 +134,7 @@
     height: auto;
     margin-bottom: 10px;
 }
-@media screen and (max-width: 768px) {
-  .event-list {
-      flex-direction: row; /* Display event cards in a row */
-  }
 
-  .event-card {
-      width: calc(50% - 20px); /* Adjust width of event cards for phone view */
-  }
-}
 .section__button,
 body {
     font-family: degular-display, sans-serif;
