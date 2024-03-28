@@ -263,7 +263,10 @@ canvas.webgl {
     opacity: .9;
     
 }
-
+.section__tile {
+  text-align: center;
+  margin-bottom: 20px;
+}
 @media (max-width: 64em) {
     .section__title {
         width: 100%;
