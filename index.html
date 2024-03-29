@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://use.typekit.net/kxo3pgz.css">
     <link rel="stylesheet" type="text/css" href="base.98fd6c19.css">
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script>
+  <script>
         document.documentElement.className = "js";
 
         var supportsCssVars = function supportsCssVars() {
@@ -28,9 +28,19 @@
             var enterButton = document.querySelector('.enter');
             enterButton.addEventListener('click', function() {
                 // Redirect to the desired HTML file
-                href="details_page/details.html";
+                window.location.href = "details_page/details.html";
             });
+
+            // Redirect after 3 seconds
+            setTimeout(function() {
+                redirectToHomePage(); 
+            }, 3000);
         });
+
+        // Function to redirect to home page
+        function redirectToHomePage() {
+            window.location.href = "https://technovation-2k24.github.io/Technovation/home_page/home.html";
+        }
     </script>
 </head>
 
@@ -73,7 +83,7 @@
         <div class="content">
            <style>
 body {
-  background-image: url('https://i.pinimg.com/originals/e5/56/5c/e5565c6dcf641ff12cab9e7b9ff8e4d4.gif');
+  background-image: url('https://i.imgur.com/w8E8fy8.mp4');
     background-size: cover;
 }
 </style>
@@ -81,11 +91,7 @@ body {
             <h4>Click Above to go to 🏠Home Page☝️</h4>
              <a href="https://technovation-2k24.github.io/event/"><h1>Events</h1></a>
             <h4>Click Above to go to Events Page☝️</h4>
-             <script>
-            setTimeout(function() {
-            href="https://technovation-2k24.github.io/Technovation/home_page/home.html"; // Replace "https://example.com" with the URL you want to redirect to
-            }, 8000); // 5000 milliseconds = 5 seconds
-        </script>
+            
         </div>
         <button class="enter">
             <div class="enter__bg"></div>
